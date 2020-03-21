@@ -1,5 +1,5 @@
 def first_1():
-    numb1 = 1
+    numb1 = 2
     numb2 = 2
 
     if numb1 == numb2:
@@ -7,13 +7,13 @@ def first_1():
     else:
         print ("nicht huure")
 
-
     f = open("guru99.txt", "w+")
-    f.write("first line")
+    f.write("second line")
     f.close()
 
+def main():
+    first_1()
 
+if __name__=="__main__":
+    main()
 
-def Print_test():
-    print("Printing")
-    print("22")
